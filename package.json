@@ -1,0 +1,30 @@
+{
+  "name": "tyag-backend",
+  "version": "1.0.0",
+  "description": "Jivvikas Backend",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yatendrajain/tyag-backend.git"
+  },
+  "keywords": [
+    "Backend"
+  ],
+  "author": "Yatendra Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yatendrajain/tyag-backend/issues"
+  },
+  "homepage": "https://github.com/Yatendrajain/tyag-backend#readme"
+}

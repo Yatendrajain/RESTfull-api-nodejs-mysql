@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tyagi List Update</title>
+
+    <script>
+
+        function increDate() {
+            document.getElementById("createdate").stepUp();
+        }
+    </script>
+
+</head>
+
+<body>
+    <h3>Insert your desired tyag for a particular day</h3>
+
+    <div>
+        <form action="/tyag" method="POST" target="_blank">
+            <label for="tyagname">Tyag</label>
+            <input type="text" id="tyagname" name="tyagname" placeholder="Tyag Description">
+
+            <label for="createdate"> Tyag Date </label>
+            <input type="date" id="createdate" name="createdate" placeholder="Select the Tyag Date">
+
+            <button onclick="increDate()" type="submit">Update</button>
+        </form>
+    </div>
+</body>
+
+</html>
