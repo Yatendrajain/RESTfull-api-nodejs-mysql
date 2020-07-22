@@ -15,7 +15,7 @@ app.get('/', (req: any, res: any) => {
   res.sendFile(path.resolve(__dirname, 'pages/index.html'));
 });
 
-require('./routes/routes.js')(app);
+require('./routes/tyag.routes.js')(app);
 
 app.listen(4000, () => {
   console.log('App listening on port 4000');
